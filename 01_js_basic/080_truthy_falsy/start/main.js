@@ -11,7 +11,7 @@ undefined
 NaN (Not a Number)
 */
 
-const a = 0;
+const a = "0";
 let result = a ? 10 : -10;
 console.log(result);
 
