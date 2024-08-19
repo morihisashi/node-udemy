@@ -3,3 +3,4 @@ function plus(a, b) {
 }
 const result = plus(1, 2);
 console.log(result);
+console.log(result);
