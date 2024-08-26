@@ -1,4 +1,4 @@
-import _ from "../lib/lodash.js";
+import _ from "lodash";
 
 const original = { prop: { nested: "value" } };
 // オブジェクトの複製
