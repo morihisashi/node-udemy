@@ -8,6 +8,6 @@ import { chromium } from "@playwright/test";
     const htmlStr = await page.content();
   
     console.log(htmlStr);
-  
+    console.log(htmlStr);
     await browser.close();
   })();
