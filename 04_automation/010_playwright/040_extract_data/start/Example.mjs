@@ -9,9 +9,16 @@ import { chromium } from "@playwright/test";
   const pageTitleLocator = page.locator('.navbar-brand');
   const pageTitle = await pageTitleLocator.innerText();
   // console.log(pageTitle);
+
   // 文字列で要素を取得
   const textLocator = page.locator("text=名刺管理アプリ");
   const pageText = await textLocator.innerText();
-  console.log(pageText);
+  // console.log(pageText);
+
+  // xPathで要素を取得
+  const xPath = page.locator('xPath="/html/body/div[1]/nav/div/a"');
+  const path = await xPath.innerText();
+  console.log(path);
+
   await browser.close();
 })();
