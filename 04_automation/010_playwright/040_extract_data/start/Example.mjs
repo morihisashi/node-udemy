@@ -19,6 +19,7 @@ import { chromium } from "@playwright/test";
   const xPath = page.locator('xPath="/html/body/div[1]/nav/div/a"');
   const path = await xPath.innerText();
   console.log(path);
+  console.log(path);
 
   await browser.close();
 })();
