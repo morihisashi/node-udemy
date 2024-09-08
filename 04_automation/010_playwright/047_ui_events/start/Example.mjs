@@ -15,10 +15,9 @@ import { chromium } from "@playwright/test";
   await pager3Locator.click();
 
   // CSS セレクターで要素を取得
-  const pageTitleLocator = await page.locator(".cards.list-group-item");
-  const parentLocator = await pageTitleLocator.locator('..')
-  const pageTitle = await parentLocator.innerHTML();
-  console.log(pageTitle);
+  const cardLocator = await page.locator(".cards.list-group-item");
+  const cardCount = await cardLocator.count();
+  console.log(cardCount);
 
   // await browser.close();
 
