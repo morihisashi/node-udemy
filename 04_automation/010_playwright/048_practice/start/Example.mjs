@@ -20,6 +20,7 @@ import { chromium } from "@playwright/test";
   const lastCardLocator = page.locator('.cards.list-group-item >> nth=-1');
   const lastCardName = await lastCardLocator.textContent();
   console.log(lastCardName);
+  console.log(lastCardName);
   await browser.close();
 
 })();
