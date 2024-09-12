@@ -18,7 +18,7 @@ import { chromium } from "@playwright/test";
   const cardLocator = await page.locator(".cards.list-group-item");
   const cardCount = await cardLocator.count();
   console.log(cardCount);
-
+  console.log(cardCount);
   // await browser.close();
 
 })();
