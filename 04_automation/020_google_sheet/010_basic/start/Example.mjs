@@ -23,7 +23,7 @@ const secrets = require('../../../google_secrets.json');
     const b1 = sheet.getCell(0,1);
     const b2 = sheet.getCellByA1('B2');
     // コメント
-    console.log('a1', a1.value);
+    // console.log('a1', a1.value);
     console.log('a1', a1.value);
     console.log('b1', b1.value);
     console.log('b2', b2.value);
