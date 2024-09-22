@@ -173,6 +173,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -183,3 +184,6 @@ next-env.d.ts
 
 # custom
 09_bookshelf_frontend_end
+
+# jsonファイル
+udemy-test-436414-d4baa72f756b.json
