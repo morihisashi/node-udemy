@@ -25,6 +25,6 @@ const secrets = require('../../../udemy-test-436414-d4baa72f756b.json');
 
     // コメント
     // console.log('a1', a1.value);
-    console.log('b1', b1.value);
+    // console.log('b1', b1.value);
     console.log('b2', b2.value);
 })();
