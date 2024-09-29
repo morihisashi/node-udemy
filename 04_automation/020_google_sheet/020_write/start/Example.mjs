@@ -27,7 +27,7 @@ const secrets = require('../../../udemy-test-436414-d4baa72f756b.json');
     console.log('a5', a5.textFormat);
 
     a1.value = 11;
-    b1.value = 15;
+    // b1.value = 15;
     b1.textFormat = { fontSize: 18 };
     a5.value = '=sum(A1:A4)';
 
